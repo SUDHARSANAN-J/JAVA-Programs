@@ -1,18 +1,15 @@
 public class Break {
     public static void main(String [] args){
 
+         int n = 8, i;
 
+         for (i = 0; i <= n; i++)
          {
             System.out.println(i);
             if (i == 4)
             {
                 break;
             }
-
-             else
-            {
-                System.out.println("False")
-                    }
          }
     }
     
